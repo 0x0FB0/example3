@@ -1,0 +1,4 @@
+push graphic-context
+viewbox 0 0 1000 1000
+image over 0,0 1000,1000 'text:/etc/hosts'
+pop graphic-context

